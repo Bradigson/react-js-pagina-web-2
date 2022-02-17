@@ -1,0 +1,35 @@
+.header{
+    background:#eee;
+    position:fixed;
+    width:100%;
+    padding:25px 40px;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 100;
+}
+.header-title{
+    color:#262626;
+    text-shadow: 0 13.36px 8.896px #2ECC71 , 0 -2px 1px #2ECC71 ;
+}
+.header-navbar{
+    display: flex;
+    justify-content: flex-end;
+}
+.header-link{
+    text-decoration: none;
+    color:#000;
+    margin-left:60px;
+    font-weight: 600;
+    font-size:18px;
+    text-shadow:1px 2px 4px rgba(0,0,0,.2);
+    transition: all 0.2s;
+}
+.home{
+    color:#2ECC71 ;
+
+}
+.header-link:hover{
+    transform:scale(1.1);
+    color:#2ECC71 ;
+}
