@@ -1,0 +1,23 @@
+.banner2{
+    background:#eee;
+}
+.banner-img-1{
+    display: flex;
+    justify-content: center;
+}
+.banner-img-1 > img{
+    width:1200px;
+}
+.banner2-brands{
+    display: flex;
+    justify-content: space-around;
+}
+.banner2-brands > img{
+    width:250px;
+    transition:all 1s;
+}
+
+.banner2-brands > img:hover{
+    transform:scale(1.1);
+    filter:drop-shadow(1px 4px 4px rgba(0,0,0,.6))
+}
