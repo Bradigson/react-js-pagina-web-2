@@ -1,3 +1,4 @@
+
 .section1-content{
     background: #eee;
     padding:20px;
@@ -118,4 +119,41 @@
     .banner4{
         margin-top: 25px;
     }
+}
+
+@media screen and (min-width:1025px){
+    .banner4{
+        margin-top: 470px;
+    }
+    
+.section1-content{
+    background: #eee;
+    padding:20px;
+}
+
+.section1-content > h2{
+
+    font-size: 50px;
+}
+.section1-content > p{
+    font-size: 20px;
+}
+.banner4-section2{
+    display: grid;
+    grid-template-columns: 150px 150px;
+    grid-column-gap:500px;
+    grid-row-gap:50px;
+    justify-content: center;
+    place-items: center;
+}
+.banner4__section2-content1, 
+.banner4__section2-content2, 
+.banner4__section2-content3, 
+.banner4__section2-content4{
+    background: #eee;
+    width:600px;
+    height:225px;
+    padding:30px;
+    border-radius: 10px;
+}
 }
