@@ -24,3 +24,25 @@
     padding:12px 70px;
     font-size: 24px;
 }
+
+
+@media screen and (max-width:540px){
+
+    .benner1__article__section-content-1 > h2{
+        text-shadow: 0 13.36px 8.896px rgba(26,26,26,.3) , 0 -2px 1px rgba(26,26,26,.3) ;
+        font-size:45px;
+    }
+    .benner1__article__section-content-1 > p{
+        font-size: 18px;
+    
+    }
+    .btn-success{
+        border-radius:20em;
+        padding:12px 50px;
+        font-size: 18px;
+    }
+    .header-navbar{
+        display: none;
+    }
+    
+}

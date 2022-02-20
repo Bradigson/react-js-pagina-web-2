@@ -33,3 +33,21 @@
     transform:scale(1.1);
     color:#2ECC71 ;
 }
+
+
+@media screen and (max-width:820px){
+ 
+    .header{
+    }
+    .header-title{
+        font-size:25px;
+    }
+    .header-navbar{
+
+
+    }
+    .header-link{
+        font-size:18px;
+        margin-left: 30px;
+    }
+}

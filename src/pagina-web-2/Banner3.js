@@ -53,16 +53,18 @@ class Banner3 extends React.Component{
 
     render(){
         return(
-            <article>
+            <article className='banner3'>
                 <section className="banner3-section1 mt-4">
                     <div className="text-center section1-title"><h2>{this.state.h1}<br/>{this.state.hh1}</h2>
                     <p className="text-muted">{this.state.p}<br/>{this.state.pp}</p>
                     </div>
                 </section>
+                <section className="banner3-section2 mt-4">
+                    <Banner3Section2 title1="PERFACT DESIGN" title2="It’s Everything You’ll Ever Need." imgS2={ImgSection2}/>
+                    
+                    <Banner3Section3 title1="USER INTERFACE" title2="Unlimited Features Awaiting For You." imgS3={ImgSecttion3}/>
+                </section>
 
-                <Banner3Section2 title1="PERFACT DESIGN" title2="It’s Everything You’ll Ever Need." imgS2={ImgSection2}/>
-
-                <Banner3Section3 title1="USER INTERFACE" title2="Unlimited Features Awaiting For You." imgS3={ImgSecttion3}/>
             </article>
         )
     }

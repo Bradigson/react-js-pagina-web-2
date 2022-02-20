@@ -1,0 +1,121 @@
+.section1-content{
+    background: #eee;
+    padding:20px;
+}
+
+.section1-content > h2{
+
+    font-size: 50px;
+}
+.section1-content > p{
+    font-size: 20px;
+}
+.banner4-section2{
+    display: grid;
+    grid-template-columns: 150px 150px;
+    grid-column-gap:500px;
+    grid-row-gap:50px;
+    justify-content: center;
+    place-items: center;
+}
+.banner4__section2-content1, 
+.banner4__section2-content2, 
+.banner4__section2-content3, 
+.banner4__section2-content4{
+    background: #eee;
+    width:600px;
+    height:225px;
+    padding:30px;
+    border-radius: 10px;
+}
+
+@media screen and (max-width:820px){
+    .banner4__section2-content1,
+    .banner4__section2-content2,
+    .banner4__section2-content3,
+    .banner4__section2-content4{
+        width:380px;
+    }
+    .banner4-section2{
+        display: grid;
+        grid-template-columns: 150px 150px;
+        grid-column-gap:275px;
+        grid-row-gap:25px;
+        justify-content: center;
+        place-items: center;
+    }
+}
+
+@media screen and (max-width:768px){
+    .banner4__section2-content1,
+    .banner4__section2-content2,
+    .banner4__section2-content3,
+    .banner4__section2-content4{
+        width:360px;
+    }
+    .banner4-section2{
+        grid-column-gap:230px;
+        grid-row-gap:20px;
+    }
+}
+
+@media screen and (max-width:540px){
+    .banner4__section2-content1,
+    .banner4__section2-content2,
+    .banner4__section2-content3,
+    .banner4__section2-content4{
+        width:240px;
+    }
+    .banner4-section2{
+        grid-column-gap:110px;
+        grid-row-gap:20px;
+    }
+
+    .banner4{
+        margin-top: 25px;
+    }
+}
+
+@media screen and (max-width:414px){
+    .banner4__section2-content1,
+    .banner4__section2-content2,
+    .banner4__section2-content3,
+    .banner4__section2-content4{
+        width:170px;
+    }
+    .banner4__section2-content1 > h2{
+        font-size: 20px;
+    }
+    .banner4__section2-content1 > p{
+        font-size: 13px;
+    }
+
+    .banner4__section2-content2 > h2{
+        font-size: 20px;
+    }
+    .banner4__section2-content2 > p{
+        font-size: 13px;
+    }
+
+    .banner4__section2-content3 > h2{
+        font-size: 20px;
+    }
+    .banner4__section2-content3 > p{
+        font-size: 13px;
+    }
+
+    .banner4__section2-content4 > h2{
+        font-size: 20px;
+    }
+    .banner4__section2-content4 > p{
+        font-size: 13px;
+    }
+    .banner4-section2{
+        grid-column-gap:35px;
+        grid-row-gap:13px;
+    }
+
+    .banner4{
+        margin-top: 25px;
+    }
+}

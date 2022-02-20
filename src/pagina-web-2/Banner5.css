@@ -1,0 +1,42 @@
+.banner5-section2{
+
+    display:grid;
+    grid-template-columns:repeat(auto-fit, minmax(150px, 1fr));
+    place-items: center;
+}
+.banner5__section2-content1,
+.banner5__section2-content2,
+.banner5__section2-content3,
+.banner5__section2-content4{
+    border:1px solid rgba(26,26,26,.2);
+    border-radius:5px;
+    width:300px;
+    height:200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+
+.bxs-star,
+.bxs-user,
+.bxs-download,
+.bx-dialpad-alt{
+    color:#eee;
+    background:#28B463;
+    font-size:35px;
+    padding:15px;
+    border-radius:20rem;
+}
+
+@media screen and (max-width:820px){
+    
+    .banner5__section2-content1,
+    .banner5__section2-content2,
+    .banner5__section2-content3,
+    .banner5__section2-content4{
+        width:180px;       
+    }
+}
